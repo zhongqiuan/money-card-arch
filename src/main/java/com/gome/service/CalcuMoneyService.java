@@ -2,6 +2,8 @@ package com.gome.service;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
@@ -35,40 +37,53 @@ public class CalcuMoneyService {
 				// flag 计算佣金标识 1 为已计算  2为未计算 
 				int flag = 1;
 				// 检测开机没
-				if ((Integer) obj[11] != 1) {
-					obj[15] = obj[15] + ",处于停机状态";
+				if (Integer.parseInt( (String)obj[1] )!= 1) {
+					obj[5] = obj[5] + ",处于停机状态";
 					flag = 2;
 				}
-
+				
 				// 校验政策是否失效
-				if (!belongCalendar((Date) obj[12], (Date) obj[13], (Date) obj[14])) {
+				if (!belongCalendar(ObjToDate( obj[2]), ObjToDate( obj[3]),  ObjToDate(obj[4]))) {
 
-					obj[15] = obj[15] + ",政策失效";
+					obj[5] = obj[5] + ",政策失效";
 					flag = 2;
 				}
 				int nums = md.queryCountByPhone((String) obj[0], DBUtil.getConnection());
-				if (nums > 0) {
-					obj[15] = obj[15] + ",已经计算佣金";
+				if (nums > 1) {
+					obj[5] = obj[5] + ",已经计算佣金";
 					flag = 2;
 				}
 				//更新备注信息
-				md.updateDataByOne((String)obj[15], (String)obj[1], (String)obj[12], DBUtil.getConnection());
+				md.updateDataByOne((String)obj[5], (String)obj[0], (String)obj[6],flag, DBUtil.getConnection());
 
 			}
 		}
 
 	}
 	
-	
-	
+	public static void main(String[] args) {
+		new CalcuMoneyService().checkPhoneNumIsOk();
+
+	}
 	/**
 	 * 计算佣金
 	 */
 	public void CalcuMoney(){
 		
-		
 	}
 	
+	
+	private static Date ObjToDate(Object obj){
+		
+	    SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+	    Date date= null;
+        try {
+        	 date = sdf.parse(((String)obj).substring(0,18));
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+        return date;
+	}
 	
 
 	/**
