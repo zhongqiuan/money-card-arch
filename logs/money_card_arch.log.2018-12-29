@@ -1,0 +1,344 @@
+[2018-12-28 15:34:18,576][com.mchange.v2.log.MLog] INFO  - MLog clients using log4j logging. 
+ [2018-12-28 15:34:18,681][com.mchange.v2.c3p0.C3P0Registry] INFO  - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10] 
+ [2018-12-28 15:34:18,717][com.gome.util.ReadPropUtil] INFO  - 文件路径为=D:\workplace\/params.properties 
+ [2018-12-28 15:34:18,717][com.gome.util.ReadPropUtil] INFO  - key=jdbc.url,value=jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))) 
+ [2018-12-28 15:34:18,717][com.gome.util.ReadPropUtil] INFO  - key=jdbcdriver,value=oracle.jdbc.driver.OracleDriver 
+ [2018-12-28 15:34:18,717][com.gome.util.ReadPropUtil] INFO  - key=jdbc.username,value=elitejx 
+ [2018-12-28 15:34:18,717][com.gome.util.ReadPropUtil] INFO  - key=jdbc.password,value=elitejx 
+ [2018-12-28 15:34:18,740][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] INFO  - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 2rz1gz9z1vmlqewnsoa29|330a9da7, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 2rz1gz9z1vmlqewnsoa29|330a9da7, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))), maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ] 
+ [2018-12-28 15:34:19,019][com.gome.service.CalcuMoneyService] INFO  - today return sevice_num is 19 个 
+ [2018-12-28 15:35:18,069][com.mchange.v2.log.MLog] INFO  - MLog clients using log4j logging. 
+ [2018-12-28 15:35:18,162][com.mchange.v2.c3p0.C3P0Registry] INFO  - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10] 
+ [2018-12-28 15:35:18,197][com.gome.util.ReadPropUtil] INFO  - 文件路径为=D:\workplace\/params.properties 
+ [2018-12-28 15:35:18,197][com.gome.util.ReadPropUtil] INFO  - key=jdbc.url,value=jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))) 
+ [2018-12-28 15:35:18,198][com.gome.util.ReadPropUtil] INFO  - key=jdbcdriver,value=oracle.jdbc.driver.OracleDriver 
+ [2018-12-28 15:35:18,198][com.gome.util.ReadPropUtil] INFO  - key=jdbc.username,value=elitejx 
+ [2018-12-28 15:35:18,198][com.gome.util.ReadPropUtil] INFO  - key=jdbc.password,value=elitejx 
+ [2018-12-28 15:35:18,220][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] INFO  - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 2rz1gz9z1vmn0bd1vg5en8|7df4591e, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 2rz1gz9z1vmn0bd1vg5en8|7df4591e, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))), maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ] 
+ [2018-12-28 15:35:18,439][com.gome.service.CalcuMoneyService] INFO  - today return sevice_num is 19 个 
+ [2018-12-28 15:35:59,071][com.mchange.v2.log.MLog] INFO  - MLog clients using log4j logging. 
+ [2018-12-28 15:35:59,168][com.mchange.v2.c3p0.C3P0Registry] INFO  - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10] 
+ [2018-12-28 15:35:59,203][com.gome.util.ReadPropUtil] INFO  - 文件路径为=D:\workplace\/params.properties 
+ [2018-12-28 15:35:59,204][com.gome.util.ReadPropUtil] INFO  - key=jdbc.url,value=jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))) 
+ [2018-12-28 15:35:59,204][com.gome.util.ReadPropUtil] INFO  - key=jdbcdriver,value=oracle.jdbc.driver.OracleDriver 
+ [2018-12-28 15:35:59,204][com.gome.util.ReadPropUtil] INFO  - key=jdbc.username,value=elitejx 
+ [2018-12-28 15:35:59,204][com.gome.util.ReadPropUtil] INFO  - key=jdbc.password,value=elitejx 
+ [2018-12-28 15:35:59,227][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] INFO  - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 2rz1gz9z1vmnvycushdd|330a9da7, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 2rz1gz9z1vmnvycushdd|330a9da7, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))), maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ] 
+ [2018-12-28 15:35:59,440][com.gome.service.CalcuMoneyService] INFO  - today return sevice_num is 19 个 
+ [2018-12-28 15:56:57,653][com.mchange.v2.log.MLog] INFO  - MLog clients using log4j logging. 
+ [2018-12-28 15:56:57,746][com.mchange.v2.c3p0.C3P0Registry] INFO  - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10] 
+ [2018-12-28 15:56:57,782][com.gome.util.ReadPropUtil] INFO  - 文件路径为=D:\workplace\/params.properties 
+ [2018-12-28 15:56:57,782][com.gome.util.ReadPropUtil] INFO  - key=jdbc.url,value=jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))) 
+ [2018-12-28 15:56:57,782][com.gome.util.ReadPropUtil] INFO  - key=jdbcdriver,value=oracle.jdbc.driver.OracleDriver 
+ [2018-12-28 15:56:57,782][com.gome.util.ReadPropUtil] INFO  - key=jdbc.username,value=elitejx 
+ [2018-12-28 15:56:57,782][com.gome.util.ReadPropUtil] INFO  - key=jdbc.password,value=elitejx 
+ [2018-12-28 15:56:57,804][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] INFO  - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 2rz1gz9z1vnev2y1sxsqf|471cc198, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 2rz1gz9z1vnev2y1sxsqf|471cc198, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))), maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ] 
+ [2018-12-28 15:56:58,054][com.gome.service.CalcuMoneyService] INFO  - today return sevice_num is 19 个 
+ [2018-12-28 15:57:39,728][com.mchange.v2.log.MLog] INFO  - MLog clients using log4j logging. 
+ [2018-12-28 15:57:39,824][com.mchange.v2.c3p0.C3P0Registry] INFO  - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10] 
+ [2018-12-28 15:57:39,860][com.gome.util.ReadPropUtil] INFO  - 文件路径为=D:\workplace\/params.properties 
+ [2018-12-28 15:57:39,861][com.gome.util.ReadPropUtil] INFO  - key=jdbc.url,value=jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))) 
+ [2018-12-28 15:57:39,861][com.gome.util.ReadPropUtil] INFO  - key=jdbcdriver,value=oracle.jdbc.driver.OracleDriver 
+ [2018-12-28 15:57:39,861][com.gome.util.ReadPropUtil] INFO  - key=jdbc.username,value=elitejx 
+ [2018-12-28 15:57:39,861][com.gome.util.ReadPropUtil] INFO  - key=jdbc.password,value=elitejx 
+ [2018-12-28 15:57:39,883][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] INFO  - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 2rz1gz9z1vnfrjq1ialck0|75115dab, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 2rz1gz9z1vnfrjq1ialck0|75115dab, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))), maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ] 
+ [2018-12-28 15:57:40,092][com.gome.service.CalcuMoneyService] INFO  - today return sevice_num is 19 个 
+ [2018-12-28 15:58:21,848][com.mchange.v2.log.MLog] INFO  - MLog clients using log4j logging. 
+ [2018-12-28 15:58:21,944][com.mchange.v2.c3p0.C3P0Registry] INFO  - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10] 
+ [2018-12-28 15:58:21,979][com.gome.util.ReadPropUtil] INFO  - 文件路径为=D:\workplace\/params.properties 
+ [2018-12-28 15:58:21,979][com.gome.util.ReadPropUtil] INFO  - key=jdbc.url,value=jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))) 
+ [2018-12-28 15:58:21,979][com.gome.util.ReadPropUtil] INFO  - key=jdbcdriver,value=oracle.jdbc.driver.OracleDriver 
+ [2018-12-28 15:58:21,979][com.gome.util.ReadPropUtil] INFO  - key=jdbc.username,value=elitejx 
+ [2018-12-28 15:58:21,979][com.gome.util.ReadPropUtil] INFO  - key=jdbc.password,value=elitejx 
+ [2018-12-28 15:58:22,002][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] INFO  - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 2rz1gz9z1vngo1psygw65|75115dab, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 2rz1gz9z1vngo1psygw65|75115dab, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))), maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ] 
+ [2018-12-28 15:58:22,231][com.gome.service.CalcuMoneyService] INFO  - today return sevice_num is 19 个 
+ [2018-12-28 15:59:09,772][com.mchange.v2.log.MLog] INFO  - MLog clients using log4j logging. 
+ [2018-12-28 15:59:09,867][com.mchange.v2.c3p0.C3P0Registry] INFO  - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10] 
+ [2018-12-28 15:59:09,903][com.gome.util.ReadPropUtil] INFO  - 文件路径为=D:\workplace\/params.properties 
+ [2018-12-28 15:59:09,903][com.gome.util.ReadPropUtil] INFO  - key=jdbc.url,value=jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))) 
+ [2018-12-28 15:59:09,903][com.gome.util.ReadPropUtil] INFO  - key=jdbcdriver,value=oracle.jdbc.driver.OracleDriver 
+ [2018-12-28 15:59:09,903][com.gome.util.ReadPropUtil] INFO  - key=jdbc.username,value=elitejx 
+ [2018-12-28 15:59:09,903][com.gome.util.ReadPropUtil] INFO  - key=jdbc.password,value=elitejx 
+ [2018-12-28 15:59:09,926][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] INFO  - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 2rz1gz9z1vnhp0yoa3eex|471cc198, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 2rz1gz9z1vnhp0yoa3eex|471cc198, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))), maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ] 
+ [2018-12-28 15:59:10,252][com.gome.service.CalcuMoneyService] INFO  - today return sevice_num is 19 个 
+ [2018-12-28 15:59:10,253][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066605 
+ [2018-12-28 15:59:10,524][com.gome.dao.MoneyDao] ERROR  - ******query serivce_nunm count is error ,this is ***** 
+ java.sql.SQLException: 索引中丢失  IN 或 OUT 参数:: 1
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.OraclePreparedStatement.processCompletedBindRow(OraclePreparedStatement.java:1681)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3280)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3329)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:353)
+	at com.gome.dao.MoneyDao.queryCountByPhone(MoneyDao.java:73)
+	at com.gome.service.CalcuMoneyService.checkPhoneNumIsOk(CalcuMoneyService.java:51)
+	at com.gome.service.CalcuMoneyService.main(CalcuMoneyService.java:65)
+[2018-12-28 15:59:10,547][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066609 
+ [2018-12-28 15:59:10,552][com.gome.dao.MoneyDao] ERROR  - ******query serivce_nunm count is error ,this is ***** 
+ java.sql.SQLException: 索引中丢失  IN 或 OUT 参数:: 1
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.OraclePreparedStatement.processCompletedBindRow(OraclePreparedStatement.java:1681)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3280)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3329)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:353)
+	at com.gome.dao.MoneyDao.queryCountByPhone(MoneyDao.java:73)
+	at com.gome.service.CalcuMoneyService.checkPhoneNumIsOk(CalcuMoneyService.java:51)
+	at com.gome.service.CalcuMoneyService.main(CalcuMoneyService.java:65)
+[2018-12-28 15:59:10,556][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066613 
+ [2018-12-28 15:59:10,560][com.gome.dao.MoneyDao] ERROR  - ******query serivce_nunm count is error ,this is ***** 
+ java.sql.SQLException: 索引中丢失  IN 或 OUT 参数:: 1
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.OraclePreparedStatement.processCompletedBindRow(OraclePreparedStatement.java:1681)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3280)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3329)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:353)
+	at com.gome.dao.MoneyDao.queryCountByPhone(MoneyDao.java:73)
+	at com.gome.service.CalcuMoneyService.checkPhoneNumIsOk(CalcuMoneyService.java:51)
+	at com.gome.service.CalcuMoneyService.main(CalcuMoneyService.java:65)
+[2018-12-28 15:59:10,590][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066617 
+ [2018-12-28 15:59:10,593][com.gome.dao.MoneyDao] ERROR  - ******query serivce_nunm count is error ,this is ***** 
+ java.sql.SQLException: 索引中丢失  IN 或 OUT 参数:: 1
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.OraclePreparedStatement.processCompletedBindRow(OraclePreparedStatement.java:1681)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3280)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3329)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:353)
+	at com.gome.dao.MoneyDao.queryCountByPhone(MoneyDao.java:73)
+	at com.gome.service.CalcuMoneyService.checkPhoneNumIsOk(CalcuMoneyService.java:51)
+	at com.gome.service.CalcuMoneyService.main(CalcuMoneyService.java:65)
+[2018-12-28 15:59:10,596][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066621 
+ [2018-12-28 15:59:10,600][com.gome.dao.MoneyDao] ERROR  - ******query serivce_nunm count is error ,this is ***** 
+ java.sql.SQLException: 索引中丢失  IN 或 OUT 参数:: 1
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.OraclePreparedStatement.processCompletedBindRow(OraclePreparedStatement.java:1681)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3280)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3329)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:353)
+	at com.gome.dao.MoneyDao.queryCountByPhone(MoneyDao.java:73)
+	at com.gome.service.CalcuMoneyService.checkPhoneNumIsOk(CalcuMoneyService.java:51)
+	at com.gome.service.CalcuMoneyService.main(CalcuMoneyService.java:65)
+[2018-12-28 16:00:15,508][com.mchange.v2.log.MLog] INFO  - MLog clients using log4j logging. 
+ [2018-12-28 16:00:15,602][com.mchange.v2.c3p0.C3P0Registry] INFO  - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10] 
+ [2018-12-28 16:00:15,637][com.gome.util.ReadPropUtil] INFO  - 文件路径为=D:\workplace\/params.properties 
+ [2018-12-28 16:00:15,637][com.gome.util.ReadPropUtil] INFO  - key=jdbc.url,value=jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))) 
+ [2018-12-28 16:00:15,637][com.gome.util.ReadPropUtil] INFO  - key=jdbcdriver,value=oracle.jdbc.driver.OracleDriver 
+ [2018-12-28 16:00:15,637][com.gome.util.ReadPropUtil] INFO  - key=jdbc.username,value=elitejx 
+ [2018-12-28 16:00:15,637][com.gome.util.ReadPropUtil] INFO  - key=jdbc.password,value=elitejx 
+ [2018-12-28 16:00:15,659][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] INFO  - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 2rz1gz9z1vnj3qw8b364c|471cc198, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 2rz1gz9z1vnj3qw8b364c|471cc198, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))), maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ] 
+ [2018-12-28 16:00:15,879][com.gome.service.CalcuMoneyService] INFO  - today return sevice_num is 19 个 
+ [2018-12-28 16:00:15,880][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066605 
+ [2018-12-28 16:00:15,925][com.gome.dao.MoneyDao] ERROR  - ******query serivce_nunm count is error ,this is ***** 
+ java.sql.SQLException: 未调用 ResultSet.next
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:208)
+	at oracle.jdbc.driver.OracleResultSetImpl.getInt(OracleResultSetImpl.java:511)
+	at com.mchange.v2.c3p0.impl.NewProxyResultSet.getInt(NewProxyResultSet.java:425)
+	at com.gome.dao.MoneyDao.queryCountByPhone(MoneyDao.java:75)
+	at com.gome.service.CalcuMoneyService.checkPhoneNumIsOk(CalcuMoneyService.java:51)
+	at com.gome.service.CalcuMoneyService.main(CalcuMoneyService.java:65)
+[2018-12-28 16:00:15,931][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066609 
+ [2018-12-28 16:00:15,935][com.gome.dao.MoneyDao] ERROR  - ******query serivce_nunm count is error ,this is ***** 
+ java.sql.SQLException: 未调用 ResultSet.next
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:208)
+	at oracle.jdbc.driver.OracleResultSetImpl.getInt(OracleResultSetImpl.java:511)
+	at com.mchange.v2.c3p0.impl.NewProxyResultSet.getInt(NewProxyResultSet.java:425)
+	at com.gome.dao.MoneyDao.queryCountByPhone(MoneyDao.java:75)
+	at com.gome.service.CalcuMoneyService.checkPhoneNumIsOk(CalcuMoneyService.java:51)
+	at com.gome.service.CalcuMoneyService.main(CalcuMoneyService.java:65)
+[2018-12-28 16:00:15,938][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066613 
+ [2018-12-28 16:00:15,943][com.gome.dao.MoneyDao] ERROR  - ******query serivce_nunm count is error ,this is ***** 
+ java.sql.SQLException: 未调用 ResultSet.next
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:208)
+	at oracle.jdbc.driver.OracleResultSetImpl.getInt(OracleResultSetImpl.java:511)
+	at com.mchange.v2.c3p0.impl.NewProxyResultSet.getInt(NewProxyResultSet.java:425)
+	at com.gome.dao.MoneyDao.queryCountByPhone(MoneyDao.java:75)
+	at com.gome.service.CalcuMoneyService.checkPhoneNumIsOk(CalcuMoneyService.java:51)
+	at com.gome.service.CalcuMoneyService.main(CalcuMoneyService.java:65)
+[2018-12-28 16:00:16,002][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066617 
+ [2018-12-28 16:00:16,007][com.gome.dao.MoneyDao] ERROR  - ******query serivce_nunm count is error ,this is ***** 
+ java.sql.SQLException: 未调用 ResultSet.next
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:208)
+	at oracle.jdbc.driver.OracleResultSetImpl.getInt(OracleResultSetImpl.java:511)
+	at com.mchange.v2.c3p0.impl.NewProxyResultSet.getInt(NewProxyResultSet.java:425)
+	at com.gome.dao.MoneyDao.queryCountByPhone(MoneyDao.java:75)
+	at com.gome.service.CalcuMoneyService.checkPhoneNumIsOk(CalcuMoneyService.java:51)
+	at com.gome.service.CalcuMoneyService.main(CalcuMoneyService.java:65)
+[2018-12-28 16:00:16,036][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066621 
+ [2018-12-28 16:00:16,042][com.gome.dao.MoneyDao] ERROR  - ******query serivce_nunm count is error ,this is ***** 
+ java.sql.SQLException: 未调用 ResultSet.next
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:208)
+	at oracle.jdbc.driver.OracleResultSetImpl.getInt(OracleResultSetImpl.java:511)
+	at com.mchange.v2.c3p0.impl.NewProxyResultSet.getInt(NewProxyResultSet.java:425)
+	at com.gome.dao.MoneyDao.queryCountByPhone(MoneyDao.java:75)
+	at com.gome.service.CalcuMoneyService.checkPhoneNumIsOk(CalcuMoneyService.java:51)
+	at com.gome.service.CalcuMoneyService.main(CalcuMoneyService.java:65)
+[2018-12-28 16:00:56,979][com.mchange.v2.log.MLog] INFO  - MLog clients using log4j logging. 
+ [2018-12-28 16:00:57,073][com.mchange.v2.c3p0.C3P0Registry] INFO  - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10] 
+ [2018-12-28 16:00:57,109][com.gome.util.ReadPropUtil] INFO  - 文件路径为=D:\workplace\/params.properties 
+ [2018-12-28 16:00:57,109][com.gome.util.ReadPropUtil] INFO  - key=jdbc.url,value=jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))) 
+ [2018-12-28 16:00:57,110][com.gome.util.ReadPropUtil] INFO  - key=jdbcdriver,value=oracle.jdbc.driver.OracleDriver 
+ [2018-12-28 16:00:57,110][com.gome.util.ReadPropUtil] INFO  - key=jdbc.username,value=elitejx 
+ [2018-12-28 16:00:57,110][com.gome.util.ReadPropUtil] INFO  - key=jdbc.password,value=elitejx 
+ [2018-12-28 16:00:57,131][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] INFO  - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 2rz1gz9z1vnjzqv1honkhc|30ea06a1, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 2rz1gz9z1vnjzqv1honkhc|30ea06a1, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))), maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ] 
+ [2018-12-28 16:00:57,343][com.gome.service.CalcuMoneyService] INFO  - today return sevice_num is 19 个 
+ [2018-12-28 16:00:57,344][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066605 
+ [2018-12-28 16:00:57,356][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066609 
+ [2018-12-28 16:00:57,360][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066613 
+ [2018-12-28 16:00:57,445][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066617 
+ [2018-12-28 16:00:57,450][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066621 
+ [2018-12-28 16:03:04,979][com.mchange.v2.log.MLog] INFO  - MLog clients using log4j logging. 
+ [2018-12-28 16:03:05,073][com.mchange.v2.c3p0.C3P0Registry] INFO  - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10] 
+ [2018-12-28 16:03:05,108][com.gome.util.ReadPropUtil] INFO  - 文件路径为=D:\workplace\/params.properties 
+ [2018-12-28 16:03:05,108][com.gome.util.ReadPropUtil] INFO  - key=jdbc.url,value=jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))) 
+ [2018-12-28 16:03:05,108][com.gome.util.ReadPropUtil] INFO  - key=jdbcdriver,value=oracle.jdbc.driver.OracleDriver 
+ [2018-12-28 16:03:05,108][com.gome.util.ReadPropUtil] INFO  - key=jdbc.username,value=elitejx 
+ [2018-12-28 16:03:05,108][com.gome.util.ReadPropUtil] INFO  - key=jdbc.password,value=elitejx 
+ [2018-12-28 16:03:05,131][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] INFO  - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 2rz1gz9z1vnmqif1bff530|471cc198, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 2rz1gz9z1vnmqif1bff530|471cc198, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))), maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ] 
+ [2018-12-28 16:03:05,338][com.gome.service.CalcuMoneyService] INFO  - today return sevice_num is 19 个 
+ [2018-12-28 16:03:05,339][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066605 
+ [2018-12-28 16:03:05,351][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066609 
+ [2018-12-28 16:03:05,355][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066613 
+ [2018-12-28 16:03:05,388][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066617 
+ [2018-12-28 16:03:05,393][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066621 
+ [2018-12-28 16:04:32,968][com.mchange.v2.log.MLog] INFO  - MLog clients using log4j logging. 
+ [2018-12-28 16:04:33,063][com.mchange.v2.c3p0.C3P0Registry] INFO  - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10] 
+ [2018-12-28 16:04:33,099][com.gome.util.ReadPropUtil] INFO  - 文件路径为=D:\workplace\/params.properties 
+ [2018-12-28 16:04:33,099][com.gome.util.ReadPropUtil] INFO  - key=jdbc.url,value=jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))) 
+ [2018-12-28 16:04:33,099][com.gome.util.ReadPropUtil] INFO  - key=jdbcdriver,value=oracle.jdbc.driver.OracleDriver 
+ [2018-12-28 16:04:33,099][com.gome.util.ReadPropUtil] INFO  - key=jdbc.username,value=elitejx 
+ [2018-12-28 16:04:33,099][com.gome.util.ReadPropUtil] INFO  - key=jdbc.password,value=elitejx 
+ [2018-12-28 16:04:33,120][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] INFO  - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 2rz1gz9z1vnomel1ck3g9a|471cc198, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 2rz1gz9z1vnomel1ck3g9a|471cc198, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))), maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ] 
+ [2018-12-28 16:04:33,329][com.gome.service.CalcuMoneyService] INFO  - today return sevice_num is 19 个 
+ [2018-12-28 16:04:33,330][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066605 
+ [2018-12-28 16:04:33,341][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066609 
+ [2018-12-28 16:04:33,345][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066613 
+ [2018-12-28 16:04:33,348][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066617 
+ [2018-12-28 16:04:33,351][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066621 
+ [2018-12-28 16:04:33,354][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066625 
+ [2018-12-28 16:04:33,357][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066606 
+ [2018-12-28 16:04:33,360][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066610 
+ [2018-12-28 16:04:33,363][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066614 
+ [2018-12-28 16:04:33,366][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066618 
+ [2018-12-28 16:04:33,369][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066622 
+ [2018-12-28 16:04:33,372][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066626 
+ [2018-12-28 16:04:33,374][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066603 
+ [2018-12-28 16:04:33,377][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066604 
+ [2018-12-28 16:04:33,380][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066608 
+ [2018-12-28 16:04:33,383][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066612 
+ [2018-12-28 16:04:33,386][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066616 
+ [2018-12-28 16:04:33,389][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066620 
+ [2018-12-28 16:04:33,392][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066624 
+ [2018-12-28 16:05:14,154][com.mchange.v2.log.MLog] INFO  - MLog clients using log4j logging. 
+ [2018-12-28 16:05:14,248][com.mchange.v2.c3p0.C3P0Registry] INFO  - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10] 
+ [2018-12-28 16:05:14,285][com.gome.util.ReadPropUtil] INFO  - 文件路径为=D:\workplace\/params.properties 
+ [2018-12-28 16:05:14,285][com.gome.util.ReadPropUtil] INFO  - key=jdbc.url,value=jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))) 
+ [2018-12-28 16:05:14,285][com.gome.util.ReadPropUtil] INFO  - key=jdbcdriver,value=oracle.jdbc.driver.OracleDriver 
+ [2018-12-28 16:05:14,285][com.gome.util.ReadPropUtil] INFO  - key=jdbc.username,value=elitejx 
+ [2018-12-28 16:05:14,285][com.gome.util.ReadPropUtil] INFO  - key=jdbc.password,value=elitejx 
+ [2018-12-28 16:05:14,307][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] INFO  - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 2rz1gz9z1vnpi6n1aplmdj|54594d1d, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 2rz1gz9z1vnpi6n1aplmdj|54594d1d, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))), maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ] 
+ [2018-12-28 16:05:14,518][com.gome.service.CalcuMoneyService] INFO  - today return sevice_num is 19 个 
+ [2018-12-28 16:05:14,518][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066605 
+ [2018-12-28 16:05:14,530][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066609 
+ [2018-12-28 16:05:14,534][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066613 
+ [2018-12-28 16:05:14,537][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066617 
+ [2018-12-28 16:05:14,540][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066621 
+ [2018-12-28 16:05:14,544][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066625 
+ [2018-12-28 16:05:14,547][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066606 
+ [2018-12-28 16:05:14,550][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066610 
+ [2018-12-28 16:05:14,553][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066614 
+ [2018-12-28 16:05:14,556][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066618 
+ [2018-12-28 16:05:14,559][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066622 
+ [2018-12-28 16:05:14,562][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066626 
+ [2018-12-28 16:05:14,565][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066603 
+ [2018-12-28 16:05:14,568][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066604 
+ [2018-12-28 16:05:14,572][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066608 
+ [2018-12-28 16:05:14,575][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066612 
+ [2018-12-28 16:05:14,578][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066616 
+ [2018-12-28 16:05:14,581][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066620 
+ [2018-12-28 16:05:14,584][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066624 
+ [2018-12-28 16:11:07,015][com.mchange.v2.log.MLog] INFO  - MLog clients using log4j logging. 
+ [2018-12-28 16:11:07,112][com.mchange.v2.c3p0.C3P0Registry] INFO  - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10] 
+ [2018-12-28 16:11:07,149][com.gome.util.ReadPropUtil] INFO  - 文件路径为=D:\workplace\/params.properties 
+ [2018-12-28 16:11:07,149][com.gome.util.ReadPropUtil] INFO  - key=jdbc.url,value=jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))) 
+ [2018-12-28 16:11:07,149][com.gome.util.ReadPropUtil] INFO  - key=jdbcdriver,value=oracle.jdbc.driver.OracleDriver 
+ [2018-12-28 16:11:07,149][com.gome.util.ReadPropUtil] INFO  - key=jdbc.username,value=elitejx 
+ [2018-12-28 16:11:07,149][com.gome.util.ReadPropUtil] INFO  - key=jdbc.password,value=elitejx 
+ [2018-12-28 16:11:07,172][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] INFO  - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 2rz1gz9z1vnx2gd1p5k1gh|30ea06a1, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 2rz1gz9z1vnx2gd1p5k1gh|30ea06a1, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))), maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ] 
+ [2018-12-28 16:11:07,382][com.gome.service.CalcuMoneyService] INFO  - today return sevice_num is 19 个 
+ [2018-12-28 16:11:07,383][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066605 
+ [2018-12-28 16:11:07,394][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066609 
+ [2018-12-28 16:11:07,398][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066613 
+ [2018-12-28 16:11:07,401][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066617 
+ [2018-12-28 16:11:07,404][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066621 
+ [2018-12-28 16:11:07,407][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066625 
+ [2018-12-28 16:11:07,410][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066606 
+ [2018-12-28 16:11:07,413][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066610 
+ [2018-12-28 16:11:07,416][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066614 
+ [2018-12-28 16:11:07,419][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066618 
+ [2018-12-28 16:11:07,422][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066622 
+ [2018-12-28 16:11:07,425][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066626 
+ [2018-12-28 16:11:07,428][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066603 
+ [2018-12-28 16:11:07,431][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066604 
+ [2018-12-28 16:11:07,434][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066608 
+ [2018-12-28 16:11:07,437][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066612 
+ [2018-12-28 16:11:07,440][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066616 
+ [2018-12-28 16:11:07,443][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066620 
+ [2018-12-28 16:11:07,446][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066624 
+ [2018-12-28 16:17:03,302][com.mchange.v2.log.MLog] INFO  - MLog clients using log4j logging. 
+ [2018-12-28 16:17:03,397][com.mchange.v2.c3p0.C3P0Registry] INFO  - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10] 
+ [2018-12-28 16:17:03,433][com.gome.util.ReadPropUtil] INFO  - 文件路径为=D:\workplace\/params.properties 
+ [2018-12-28 16:17:03,433][com.gome.util.ReadPropUtil] INFO  - key=jdbc.url,value=jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))) 
+ [2018-12-28 16:17:03,434][com.gome.util.ReadPropUtil] INFO  - key=jdbcdriver,value=oracle.jdbc.driver.OracleDriver 
+ [2018-12-28 16:17:03,434][com.gome.util.ReadPropUtil] INFO  - key=jdbc.username,value=elitejx 
+ [2018-12-28 16:17:03,434][com.gome.util.ReadPropUtil] INFO  - key=jdbc.password,value=elitejx 
+ [2018-12-28 16:17:03,455][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] INFO  - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 2rz1gz9z1vo4pd83l4xl1|471cc198, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 2rz1gz9z1vo4pd83l4xl1|471cc198, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))), maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ] 
+ [2018-12-28 16:17:03,661][com.gome.service.CalcuMoneyService] INFO  - today return sevice_num is 19 个 
+ [2018-12-28 16:17:03,662][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066605 
+ [2018-12-28 16:17:03,704][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066609 
+ [2018-12-28 16:17:03,708][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066613 
+ [2018-12-28 16:17:03,711][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066617 
+ [2018-12-28 16:17:03,714][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066621 
+ [2018-12-28 16:17:03,718][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066625 
+ [2018-12-28 16:17:03,721][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066606 
+ [2018-12-28 16:17:03,724][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066610 
+ [2018-12-28 16:17:03,727][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066614 
+ [2018-12-28 16:17:03,730][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066618 
+ [2018-12-28 16:17:03,734][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066622 
+ [2018-12-28 16:17:03,737][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066626 
+ [2018-12-28 16:17:03,740][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066603 
+ [2018-12-28 16:17:03,743][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066604 
+ [2018-12-28 16:17:03,746][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066608 
+ [2018-12-28 16:17:03,749][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066612 
+ [2018-12-28 16:17:03,752][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066616 
+ [2018-12-28 16:17:03,756][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066620 
+ [2018-12-28 16:17:03,759][com.gome.dao.MoneyDao] INFO  - query one phonenum=17001066624 
+ [2018-12-29 15:52:26,220][com.mchange.v2.log.MLog] INFO  - MLog clients using log4j logging. 
+ [2018-12-29 15:52:26,316][com.mchange.v2.c3p0.C3P0Registry] INFO  - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10] 
+ [2018-12-29 15:52:26,351][com.gome.util.ReadPropUtil] INFO  - 文件路径为=D:\workplace\/params.properties 
+ [2018-12-29 15:52:26,351][com.gome.util.ReadPropUtil] INFO  - key=jdbc.url,value=jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))) 
+ [2018-12-29 15:52:26,351][com.gome.util.ReadPropUtil] INFO  - key=jdbcdriver,value=oracle.jdbc.driver.OracleDriver 
+ [2018-12-29 15:52:26,351][com.gome.util.ReadPropUtil] INFO  - key=jdbc.username,value=elitejx 
+ [2018-12-29 15:52:26,351][com.gome.util.ReadPropUtil] INFO  - key=jdbc.password,value=elitejx 
+ [2018-12-29 15:52:26,373][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] INFO  - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 2rz1gz9z1x2owb6n6pqyz|4ef617ce, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 2rz1gz9z1x2owb6n6pqyz|4ef617ce, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))), maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ] 
+ [2018-12-29 15:55:03,771][com.mchange.v2.log.MLog] INFO  - MLog clients using log4j logging. 
+ [2018-12-29 15:55:03,866][com.mchange.v2.c3p0.C3P0Registry] INFO  - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10] 
+ [2018-12-29 15:55:03,902][com.gome.util.ReadPropUtil] INFO  - 文件路径为=D:\workplace\/params.properties 
+ [2018-12-29 15:55:03,902][com.gome.util.ReadPropUtil] INFO  - key=jdbc.url,value=jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))) 
+ [2018-12-29 15:55:03,902][com.gome.util.ReadPropUtil] INFO  - key=jdbcdriver,value=oracle.jdbc.driver.OracleDriver 
+ [2018-12-29 15:55:03,902][com.gome.util.ReadPropUtil] INFO  - key=jdbc.username,value=elitejx 
+ [2018-12-29 15:55:03,902][com.gome.util.ReadPropUtil] INFO  - key=jdbc.password,value=elitejx 
+ [2018-12-29 15:55:03,926][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] INFO  - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 2rz1gz9z1x2s9vlrzqhqc|67a7ffb3, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 2rz1gz9z1x2s9vlrzqhqc|67a7ffb3, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST=(ADDRESS =(PROTOCOL=TCP)(HOST = 10.128.35.105)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = elitejx))), maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ] 
+ 
