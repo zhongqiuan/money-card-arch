@@ -106,18 +106,8 @@ public class MailUtil {
 	}
 	
 	public static void main(String[] args) {
-		MailBean mb = new MailBean();
-		mb.setSubJect("安肖会 女士 中奖信息");
-		mb.setContentText("安肖会 女士，恭喜你中了新年大奖");
-		mb.setToPeople(new String[]{"944317944@qq.com"});
-		try {
-			for (int i = 0; i < 10; i++) {
-				
-				sendMail(mb );
-			}
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+	
+	
+		System.out.println(255 & 397);
 	}
 }
